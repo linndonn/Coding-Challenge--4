@@ -78,6 +78,19 @@ console.log(`Tax: $${tax}`);
 
 let applyDiscount = function(price, discountprice)
 { return price - (price * (discountprice / 100)); };
+//Declare a funciton expression applyDiscount that takes a price and discount percentage..
 
 let discountprice = applyDiscount (200, 25)
+//Return the discounted price
 console.log(`Discounted Price: $${discountprice}`);
+//Log the discounted price to the console using a template literal
+
+//Task 10 Arrow Functions
+const calculatePoints = (PurchaseAmount) => { return (PurchaseAmount / 10);
+};
+//Write an arrow function calculatePoints that takes a purchase amount and returns points earned (1 point per $10 spent).
+const Loyaltypoints = calculatePoints(100);
+console.log(`Loyalty Points Earned: ${Loyaltypoints}`);
+//Log the result to the console using a template literal.
+
+//End of Challenge. :)
