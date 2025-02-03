@@ -40,4 +40,9 @@ do { responses++;
     console.log(`Response Collected ${responses}`); } while (responses < 3);
     //Use a do...while loop to collect responses, simulating user input with responses++ until it reaches 3
 
-
+// Task 5 - For ... In Loop
+let employee = { name: "Alice", position: "Manager", salary: 75000 };
+//Declare an object employee with properties name, position, and salary
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
