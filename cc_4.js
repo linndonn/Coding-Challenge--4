@@ -33,4 +33,11 @@ console.log(`Final amount after discount: $${finalAmount}`);
     }
     //Use a while loop to decrease the stock left in the inventory
 
-    
+    // Task 4 - Do... While Loop
+let responses = 0; 
+//Declare a variable responses with an initial value of 0
+do { responses++;
+    console.log(`Response Collected ${responses}`); } while (responses < 3);
+    //Use a do...while loop to collect responses, simulating user input with responses++ until it reaches 3
+
+
