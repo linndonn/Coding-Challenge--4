@@ -55,3 +55,12 @@ for (let product of products) {
     console.log(`Product: ${product}`);
 }
 //Use a for...of loop to display each product and log each product name to the console using a template literal.
+
+//Task 7 forEach() Method
+
+const orders = [152, 153, 154];
+//Delcare an array orders with at least three orders IDs
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+});
+//Use the forEach () method to log each order ID to the console using a template literal.
