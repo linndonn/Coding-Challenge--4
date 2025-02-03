@@ -64,3 +64,12 @@ orders.forEach(order => {
     console.log(`Order ID: ${order}`);
 });
 //Use the forEach () method to log each order ID to the console using a template literal.
+
+//Task 8 - Function Declaration
+
+function calculateTax(amount, taxRate) 
+{ return amount * (taxRate / 100);}
+//Write a function calculateTax that takes an amount and taxRate and returns the calculated tax amount.
+let tax = calculateTax(160, 10);
+
+console.log(`Tax: $${tax}`);
