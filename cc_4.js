@@ -46,3 +46,12 @@ let employee = { name: "Alice", position: "Manager", salary: 75000 };
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }
+
+//Task 6 - For ... Of Loop
+
+let products = ["Keyboard", "Monitor", "Motherboard"];
+//Declare an array products with at least three product names
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}
+//Use a for...of loop to display each product and log each product name to the console using a template literal.
