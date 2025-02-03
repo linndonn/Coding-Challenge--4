@@ -24,4 +24,13 @@ console.log(`Final amount after discount: $${finalAmount}`);
     console.log(`Total sales: $${totalSales}`);
     //Log the total sales to the console using a template literal
 
+  // Task 3 - While Loop
+  
+  let stock = 10;
+    //Declare a variable stock with an initial value of 10
+    while (stock >0) { stock--;
+    console.log(`Stock left: ${stock}`);
+    }
+    //Use a while loop to decrease the stock left in the inventory
+
     
